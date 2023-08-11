@@ -17,7 +17,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #777;
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 .header {
@@ -34,8 +34,8 @@ body {
 
 .header_img_box {
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 2.5rem;
+    left: 2.5rem;
 }
 
 .header_img {
@@ -53,15 +53,15 @@ body {
 .header_description {
     font-family: "Lato";
     color: #fff;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
 .header_description_main {
     display: block;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 60px;
-    letter-spacing: 35px;
+    font-size: 3.75rem;
+    letter-spacing: 2.1875rem;
     animation: moveInLeft 1s ease-out;
 }
 
@@ -69,8 +69,8 @@ body {
     display: block;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 17.4px;
+    font-size: 1.25rem;
+    letter-spacing: 1.0875rem;
     animation: moveInRight 1s ease-out;
 }
 
@@ -78,8 +78,8 @@ body {
 .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px 40px;
-    border-radius: 100px;
+    padding: 0.9375rem 2.5rem;
+    border-radius: 6.25rem;
     display: inline-block;
     transition: all 0.2s;
 }
@@ -102,10 +102,10 @@ body {
 @keyframes moveInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateX(-6.25rem);
     }
     80% {
-        transform: translateX(10px);
+        transform: translateX(0.625rem);
     }
     100% {
         opacity: 1;
@@ -116,10 +116,10 @@ body {
 @keyframes moveInRight {
     0% {
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(6.25rem);
     }
     80% {
-        transform: translateX(-10px);
+        transform: translateX(-0.625rem);
     }
     100% {
         opacity: 1;
